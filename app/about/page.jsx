@@ -3,14 +3,14 @@ import Image from 'next/image'
 
 const about = () => {
   return (
-<div className="container mx-auto">
-  <div className="flex justify-center mt-5">
+<div className="container mx-auto align-items: center">
+  <div className="flex justify-center mt-5 border ">
     <div className="w-full md:w-9/12 mt-5">
       {/* <h1 className="text-center mt-5">Summary</h1> */}
-      <article>
+      <article className="">
         {/* <p>Phillip Magos is a full-stack web developer with a background in marketing and a passion for creating. He is a graduate of the University of Texas at Austin's Full Stack Web Development Bootcamp. He is currently working as a freelance web developer and is open to new opportunities.</p> */}
         <h2 className="text-center bg-light">FRONTEND</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-4">
           <p className="col-span-full md:col-span-1">
             I have a strong skill set in web development, encompassing proficiency in HTML & CSS for creating well-structured web pages, utilizing the Bootstrap framework to efficiently build responsive websites, leveraging JavaScript to develop dynamic and interactive web experiences, employing React.js to create scalable and reusable UI components, implementing responsive design principles to ensure seamless user experiences across devices, and utilizing jQuery to streamline DOM manipulation and create engaging web interactions.
           </p>
