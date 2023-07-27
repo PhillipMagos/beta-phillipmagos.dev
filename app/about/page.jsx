@@ -17,7 +17,7 @@ const about = () => {
           <li>jQuery 🤏</li>
           <li><a href="#">See Related Projects</a></li>
         </ul></div>
-      <div><h2 className="text-center bg-light">FRONTEND</h2></div>
+      <div><h2 className="text-center bg-light">BACKEND</h2></div>
       <div><ul>
         <li>Node.JS</li>
         <li>Express.JS</li>
