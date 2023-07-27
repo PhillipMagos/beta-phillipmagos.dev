@@ -3,12 +3,60 @@ import Image from 'next/image'
 
 const about = () => {
   return (
-<div className="container mx-auto align-items: center">
+
+    <div class="grid grid-cols-2 gap-4">
+      <div><h2 className="text-center bg-light">FRONTEND</h2></div>
+      <div><ul>
+        <li>HTML & CSS</li>
+        <li>Bootstrap</li>
+        <li>JavaScript</li>
+        <li>React.JS</li>
+      </ul>
+        <ul>
+          <li>Responsive Design 🖥️ || 📱</li>
+          <li>jQuery 🤏</li>
+          <li><a href="#">See Related Projects</a></li>
+        </ul></div>
+      <div><h2 className="text-center bg-light">FRONTEND</h2></div>
+      <div><ul>
+        <li>Node.JS</li>
+        <li>Express.JS</li>
+        <li>SQL</li>
+        <li>MongoDB</li>
+        <li>APIs</li>
+        <li>JSON</li>
+        <li>REST</li>
+        <li><a href="#">See Related Projects</a></li>
+      </ul></div>
+      <div><h2 className="bg-light text-center">RELATED SKILLS</h2></div>
+      <div>            
+        <ul>
+        <li>Python</li>
+        <li>GIT</li>
+        <li>JIRA</li>
+        <li>Webapp Deployment & Management: Render, Vercel & Wordpress</li>
+        <li>Command Line</li>
+        <li>Agile Development</li>
+        <li>Postman</li>
+      </ul></div>
+      <div><h2 className="bg-light p-1 mt-4 text-center">CONTINUOUS LEARNING</h2></div>
+      <div>         
+        <ul className="row">
+        <li>Python</li>
+        <li>C# - <a href="https://www.codecademy.com/learn">CodeAcademy</a></li>
+        <li>Tailwind CSS</li>
+        <li>Nest.JS</li>
+      </ul></div>
+      <div>09</div>
+    </div>
+
+
+/* <div className="container mx-auto align-items: center">
   <div className="flex justify-center mt-5 border ">
     <div className="w-full md:w-9/12 mt-5">
-      {/* <h1 className="text-center mt-5">Summary</h1> */}
+      <h1 className="text-center mt-5">Summary</h1>
       <article className="">
-        {/* <p>Phillip Magos is a full-stack web developer with a background in marketing and a passion for creating. He is a graduate of the University of Texas at Austin's Full Stack Web Development Bootcamp. He is currently working as a freelance web developer and is open to new opportunities.</p> */}
+        <p>Phillip Magos is a full-stack web developer with a background in marketing and a passion for creating. He is a graduate of the University of Texas at Austin's Full Stack Web Development Bootcamp. He is currently working as a freelance web developer and is open to new opportunities.</p>
         <h2 className="text-center bg-light">FRONTEND</h2>
         <div className="grid grid-cols-2 md:grid-cols-2 gap-4">
           <p className="col-span-full md:col-span-1">
@@ -85,8 +133,7 @@ const about = () => {
       </article>
     </div>
   </div>
-</div>
-
+</div>  */
 
 
 

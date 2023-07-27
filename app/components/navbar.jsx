@@ -11,7 +11,7 @@ const Navbar = () => {
    {/* <div className="flex flex-wrap place-items-center h-screen">
     <section className="relative mx-auto"> */}
       {/* <!-- navbar --> */}
-    <nav className="bg-top flex justify-between bg-gray-900 text-white w-screen">
+    <nav className="bg-top flex justify-between bg-gray-900 text-white w-screen z-20">
       <div className="px-5 xl:px-12 py-6 flex w-full items-center">
         {/* <a className="text-3xl font-bold font-heading" href="#"> */}
         {/* <img className="h-9" src="logo.png" alt="logo">  */}
