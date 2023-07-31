@@ -2,13 +2,13 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-gray-900">
+    <footer className="bg-gray-900">
     <div className="mx-auto w-full max-w-screen-xl">
       <div className="flex justify-center grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-3 ">
 
         <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Pages</h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+            <h2 className="mb-6 text-sm font-semibold uppercase text-white">Pages</h2>
+            <ul className="text-gray-400 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                     <a href="#" className=" hover:underline">Home</a>
                 </li>
@@ -24,8 +24,8 @@ const Footer = () => {
             </ul>
         </div>
         <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Socials</h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+            <h2 className="mb-6 text-sm font-semibold uppercase text-white">Socials</h2>
+            <ul className="text-gray-400 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                     <a href="#" className="hover:underline">Github</a>
                 </li>
@@ -41,8 +41,8 @@ const Footer = () => {
             </ul>
         </div>
         <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">L&D Platforms</h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+            <h2 className="mb-6 text-sm font-semibold uppercase text-white">L&D Platforms</h2>
+            <ul className="text-gray-400 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                     <a href="#" className="hover:underline">Codewars</a>
                 </li>
@@ -58,7 +58,7 @@ const Footer = () => {
             </ul>
         </div>
     </div>
-    <div className="px-4 py-6 bg-gray-100 dark:bg-gray-900 md:flex md:items-center md:justify-between">
+    <div className="px-4 py-6 bg-gray-900 md:flex md:items-center md:justify-between">
         <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="https://phillipmagos.dev/">phillipmagos.dev</a>. All Rights Reserved.
         </span>
       </div>
