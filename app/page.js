@@ -1,4 +1,7 @@
 import Image from 'next/image'
+import { BsDatabase } from "react-icons/bs";
+import { AiOutlineLaptop } from "react-icons/ai";
+import { PiTerminalWindowThin } from "react-icons/pi";
 
 export default function Home() {
   return (
@@ -25,15 +28,16 @@ export default function Home() {
 <section className="grid grid-rows-1 grid-flow-col gap-4">
 
 <div class="max-w-sm p-6 bg-gray-800 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Frontend</h5>
-    </a>
-    <ul class="mb-3 font-normal text-gray-400 dark:text-gray-400">
-         <li>Focuses on Layout, animations, content organization, navigation & graphics.</li>
-         <li>Bootstrap & Tailwind</li>
-         <li>HTML5 and CSS3</li>
-         <li>Javascript</li>
-         <li>React</li>
+    <div class="flex items-center">
+        <AiOutlineLaptop class="text-white text-2xl" />
+        <h5 class="ml-2 text-2xl font-bold tracking-tight text-white dark:text-white">Frontend</h5>
+    </div>
+    <ul class="mb-3 font-normal text-gray-400 dark:text-gray-400 list-disc pl-6">
+        <li>Focuses on Layout, animations, content organization, navigation & graphics.</li>
+        <li>Bootstrap & Tailwind</li>
+        <li>HTML5 and CSS3</li>
+        <li>Javascript</li>
+        <li>React</li>
     </ul>
     <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
         Read more
@@ -44,10 +48,12 @@ export default function Home() {
 </div>
 
 <div class="max-w-sm p-6 bg-gray-800 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z"/></svg>Backend</h5>
-    </a>
-    <ul class="mb-3 font-normal text-gray-400 dark:text-gray-400">
+    <div class="flex items-center">
+            <BsDatabase class="text-white text-2xl" />
+            
+            <h5 class="ml-2 text-2xl font-bold tracking-tight text-white dark:text-white">Backend</h5>
+    </div>
+    <ul class="mb-3 font-normal text-gray-400 dark:text-gray-400 list-disc pl-6">
       <li>Building code, debugging, database managament.</li>
          <li>Node.JS</li>
          <li>MongoDB</li>
@@ -62,11 +68,14 @@ export default function Home() {
 </div>
 
 <div class="max-w-sm p-6 bg-gray-800 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Weekend</h5>
-    </a>
-    <ul class="mb-3 font-normal text-gray-400 dark:text-gray-400">
-      <li>There's more to it than the weekday grind:</li>
+<div class="flex items-center">
+        <PiTerminalWindowThin class="text-white text-2xl" />
+        <h5 class="ml-2 text-2xl font-bold tracking-tight text-white dark:text-white">Weekend</h5>
+        
+    </div>
+    
+    <ul class="mb-3 font-normal text-gray-400 dark:text-gray-400 list-disc pl-6">
+    <li>There's more to it than the weekday grind:</li>
          <li>Growing Vegetables</li>
          <li>Jui-Jitsu</li>
          <li>Hiking with my dogs and cats</li>
