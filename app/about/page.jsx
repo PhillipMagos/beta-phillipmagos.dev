@@ -3,22 +3,28 @@ import Image from 'next/image'
 
 const about = () => {
   return (
-
-    <div class="grid grid-cols-2 gap-4">
-      <div><h2 className="text-center bg-light">FRONTEND</h2></div>
-      <div><ul>
+<div className="container mx-auto px-8">
+  <h1 className="text-center font-bold mb-4 mt-4">Skills</h1>
+    <div className="columns-1 border-color-600 ">
+      {/* grid grid-cols-2 gap-4 */}
+      <div className="">
+      <h2 className="text-center font-bold mb-4 mt-4 bg-gray-100">FRONTEND</h2>
+        </div>
+      <div className="columns-2 ">
+        <ul className="list-disc">
         <li>HTML & CSS</li>
         <li>Bootstrap</li>
         <li>JavaScript</li>
         <li>React.JS</li>
-      </ul>
-        <ul>
           <li>Responsive Design 🖥️ || 📱</li>
           <li>jQuery 🤏</li>
           <li><a href="#">See Related Projects</a></li>
         </ul></div>
-      <div><h2 className="text-center bg-light">BACKEND</h2></div>
-      <div><ul>
+      <div>
+        <h2 className="text-center font-bold mb-4 mt-4 bg-gray-100">BACKEND</h2>
+      </div>
+      <div>
+        <ul className="columns-2 mb-4 mt-4 list-disc">
         <li>Node.JS</li>
         <li>Express.JS</li>
         <li>SQL</li>
@@ -28,26 +34,29 @@ const about = () => {
         <li>REST</li>
         <li><a href="#">See Related Projects</a></li>
       </ul></div>
-      <div><h2 className="bg-light text-center">RELATED SKILLS</h2></div>
+      <div>
+        <h2 className="bg-light font-bold text-center mb-4 mt-4  bg-gray-100">RELATED SKILLS</h2>
+        </div>
       <div>            
-        <ul>
+        <ul className="columns-2 mb-2 mt-2 list-disc">
         <li>Python</li>
         <li>GIT</li>
         <li>JIRA</li>
-        <li>Webapp Deployment & Management: Render, Vercel & Wordpress</li>
+        <li>Deployment & Management: Render & Vercel</li>
         <li>Command Line</li>
         <li>Agile Development</li>
         <li>Postman</li>
       </ul></div>
-      <div><h2 className="bg-light p-1 mt-4 text-center">CONTINUOUS LEARNING</h2></div>
+      <div><h2 className="bg-light font-bold p-1 text-center mb-4 mt-4 bg-gray-100">CONTINUOUS LEARNING</h2></div>
       <div>         
-        <ul className="row">
+        <ul className="columns-2 mb-12 mt-2 list-disc">
         <li>Python</li>
         <li>C# - <a href="https://www.codecademy.com/learn">CodeAcademy</a></li>
         <li>Tailwind CSS</li>
-        <li>Nest.JS</li>
-      </ul></div>
-      <div>09</div>
+        <li>Next.JS</li>
+      </ul>
+      </div>
+    </div>
     </div>
   )
 }
