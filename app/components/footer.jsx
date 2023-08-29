@@ -44,16 +44,22 @@ const Footer = () => {
             <h2 className="mb-6 text-sm font-semibold uppercase text-white">L&D Platforms</h2>
             <ul className="text-gray-400 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Codewars</a>
+                    <a href="https://www.freecodecamp.org/fcce3e0d5dc-32a3-422c-b23f-65eb462680e9" className="hover:underline">freeCodeCamp</a>
                 </li>
                 <li className="mb-4">
+                    <a href="https://www.codewars.com/users/PhillipMagos" className="hover:underline">Codewars</a>
+                </li>
+                <li className="mb-4">
+                    <a href="https://codedamn.com/user/fillup" className="hover:underline">codedamn</a>
+                </li>
+                <li className="mb-4">
+                    <a href="https://www.codecademy.com/profiles/arcRockstar77118" className="hover:underline">codecademy</a>
+                </li>
+                {/* <li className="mb-4">
                     <a href="#" className="hover:underline">LeetCode</a>
-                </li>
+                </li> */}
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">freeCodeCamp</a>
-                </li>
-                <li className="mb-4">
-                    <a href="#" className="hover:underline">HackerRank</a>
+                    <a href="https://www.hackerrank.com/phillipmagos" className="hover:underline">HackerRank</a>
                 </li>
             </ul>
         </div>
