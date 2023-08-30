@@ -5,6 +5,9 @@ import { useState } from "react";
 import React from "react";
 
 export default function ContactForm() {
+    const handleButtonClick = () => {
+        window.location.reload();
+      };
     //const [fullname, setFullname] = useState("");
     const [firstname, setFirstname] = useState("");
     const [lastname, setLastname] = useState("");
@@ -19,6 +22,13 @@ export default function ContactForm() {
     
     const handleSubmit = async (e) => {
         //const router = useRouter(); // A. this is used to redirect the webpage
+
+        // const router = useRouter();
+        // const handleButtonClick = () => {
+        //     router.reload(); // Reloads the current page
+        // }
+
+
         e.preventDefault();
 
         console.log("Full name: ", firstname);
@@ -43,6 +53,7 @@ export default function ContactForm() {
                 message,
             }),
         });
+
         //router.push('https://www.google.com/'); // A. this is used to redirect the webpage
         const { msg } = await res.json();
         // const { msg, success } = await res.json();
@@ -55,7 +66,7 @@ export default function ContactForm() {
         //    setEmail("");
         //    setMessage("");
         // }
-        
+
         
     };
 
@@ -146,8 +157,10 @@ export default function ContactForm() {
     </div> */}
 
     <button 
+    onClick={handleButtonClick}
     type="submit" 
-    className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+    className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit
+    </button>
 
   
 
