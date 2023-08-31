@@ -147,7 +147,8 @@ export default function ContactForm() {
                           value={message}
                           className="h-32 w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                           id="message"
-                          placeholder="Type your message right here"></textarea>
+                          placeholder="Type your message right here">Here is some text
+                          </textarea>
                   </div>
                   {/* <div className="flex items-start mb-6">
         <div className="flex items-center h-5">
