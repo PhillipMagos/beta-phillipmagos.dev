@@ -3,6 +3,8 @@ import { BsDatabase } from "react-icons/bs";
 import { AiOutlineLaptop } from "react-icons/ai";
 import { PiTerminalWindowThin } from "react-icons/pi";
 import Carousel from './components/carousel';
+import Contact from './contact/page';
+import ContactShort from './components/contact-short';
 // Initialization for ES Users
 // import { Carousel } from 'tw-elements';
 
@@ -15,11 +17,11 @@ export default function Home() {
       <section className="bg-center bg-no-repeat bg-blend-multiply">
         <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
           <h1 className="test mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">Hello there, I'm Phillip.</h1>
-          <p className="mb-8 text-lg font-normal text-gray-700 lg:text-xl sm:px-16 lg:px-48">I absolutely love software engineering. It's my passion and creative outlet, allowing me to transform ideas into real-world solutions and continuously learn and grow in a dynamic field.</p>
-          <p className="mb-8 text-lg font-normal text-gray-700 2xl:text-white lg:text-xl sm:px-16 lg:px-48">I can develop websites that are responsive to all sorts of devices....</p>
-          <p className="mb-8 text-lg font-normal text-gray-700 lg:text-white lg:text-xl sm:px-16 lg:px-48">Including screen sizes of laptop screens...</p>
-          <p className="mb-8 text-lg font-normal text-gray-700 md:text-white lg:text-xl sm:px-16 lg:px-48">Screen sizes of tablets..</p>
-          <p className="mb-8 text-lg font-normal text-gray-700 sm:text-white lg:text-xl sm:px-16 lg:px-48">And even mobile dvices.</p>
+          <p className="mb-2 text-lg font-normal text-gray-700 lg:text-xl sm:px-16 lg:px-48">I absolutely love software engineering. It's my passion and creative outlet, allowing me to transform ideas into real-world solutions and continuously learn and grow in a dynamic field.</p>
+          <p className="mb-2 text-lg font-normal text-gray-700 2xl:text-white lg:text-xl sm:px-16 lg:px-48">I can develop websites that are responsive to all sorts of devices....</p>
+          <p className="mb-2 text-lg font-normal text-gray-700 lg:text-white lg:text-xl sm:px-16 lg:px-48">Including screen sizes of laptop screens...</p>
+          <p className="mb-2 text-lg font-normal text-gray-700 md:text-white lg:text-xl sm:px-16 lg:px-48">Screen sizes of tablets..</p>
+          <p className="mb-2 text-lg font-normal text-gray-700 sm:text-white lg:text-xl sm:px-16 lg:px-48">And even mobile devices.</p>
 
           <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <a href="#skills" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
@@ -112,7 +114,7 @@ export default function Home() {
 
       <section>
         {/* Somthing like a popup shows at the end. This is for a contact form. We don't want to redirect the user to the contact page. */}
-
+            <ContactShort />
 
       </section>
 
