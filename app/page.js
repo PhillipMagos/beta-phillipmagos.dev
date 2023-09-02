@@ -16,9 +16,14 @@ export default function Home() {
         <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
           <h1 className="test mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">Hello there, I'm Phillip.</h1>
           <p className="mb-8 text-lg font-normal text-gray-700 lg:text-xl sm:px-16 lg:px-48">I absolutely love software engineering. It's my passion and creative outlet, allowing me to transform ideas into real-world solutions and continuously learn and grow in a dynamic field.</p>
+          <p className="mb-8 text-lg font-normal text-gray-700 2xl:text-white lg:text-xl sm:px-16 lg:px-48">I can develop websites that are responsive to all sorts of devices....</p>
+          <p className="mb-8 text-lg font-normal text-gray-700 lg:text-white lg:text-xl sm:px-16 lg:px-48">Including screen sizes of laptop screens...</p>
+          <p className="mb-8 text-lg font-normal text-gray-700 md:text-white lg:text-xl sm:px-16 lg:px-48">Screen sizes of tablets..</p>
+          <p className="mb-8 text-lg font-normal text-gray-700 sm:text-white lg:text-xl sm:px-16 lg:px-48">And even mobile dvices.</p>
+
           <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-            <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-              Continue
+            <a href="#skills" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+              See my Skills
               <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
               </svg>
@@ -32,7 +37,7 @@ export default function Home() {
 
       <section className="grid grid-rows-1 grid-flow-col gap-4">
 
-        <div className="max-w-sm p-6 bg-gray-800 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div id="skills" className="max-w-sm p-6 bg-gray-800 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <div className="flex items-center">
             <AiOutlineLaptop className="text-white text-2xl" />
             <h5 className="ml-2 text-2xl font-bold tracking-tight text-white dark:text-white">Frontend</h5>
