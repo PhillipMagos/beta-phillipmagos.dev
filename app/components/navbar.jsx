@@ -66,7 +66,7 @@ const Navbar = () => {
           <li><a className="hover:text-gray-300" href="/">Home</a></li>
           <li><a className="hover:text-gray-300" href="/about">About</a></li>
           <li><a className="hover:text-gray-300" href="/contact">Contact</a></li>
-          <li><a className="hover:text-gray-300" href="/contact">Developments</a></li>
+          <li><a className="hover:text-gray-300" href="/developments">Developments</a></li>
           <li><a className="hover:text-gray-300" href="/portfolio">Portfolio</a></li>
         </ul>
         {/* <!-- Header Icons --> */}
