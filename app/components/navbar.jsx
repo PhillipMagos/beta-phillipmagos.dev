@@ -14,7 +14,7 @@ const Navbar = () => {
     <section className="relative mx-auto"> */}
       {/* <!-- navbar --> */}
       {/* 'w-screen' was taken out due to it adding a side scroll for the width of the screen' */}
-    <nav className="bg-top flex justify-between bg-gray-900 text-white z-20">
+    <nav className="container-fluid bg-top flex justify-between bg-gray-900 text-white z-20">
           {/* <!-- Responsive navbar --> */}
 
           <a className="navbar-burger self-center ml-6 text-4xl xl:" href="#">
@@ -70,7 +70,7 @@ const Navbar = () => {
           {/* Logo Here. */}
         {/* </a> */}
         {/* <!-- Nav Links --> */}
-        <ul className="flex lg:flex md:flex sm:flex px-4 mx-auto font-semibold font-heading space-x-12">
+        <ul className="flex lg:flex md:flex sm:flex sm:row-2 px-4 mx-auto font-semibold font-heading space-x-12">
           <li><a className="hover:text-gray-300" href="/">Home</a></li>
           <li><a className="hover:text-gray-300" href="/about">About</a></li>
           <li><a className="hover:text-gray-300" href="/contact">Contact</a></li>
@@ -78,7 +78,7 @@ const Navbar = () => {
           <li><a className="hover:text-gray-300" href="/portfolio">Portfolio</a></li>
         </ul>
         {/* <!-- Header Icons --> */}
-        <div className="hidden xl:flex items-center space-x-5">
+        <div className="hidden xl:flex lg:flex md:flex sm:flex items-center space-x-5">
           <a className="" href="https://www.linkedin.com/in/phillipmagos/">
             <svg className="w-6 h-6 text-gray-300 dark:text-white hover:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 15 15">
     <path fill-rule="evenodd" d="M7.979 5v1.586a3.5 3.5 0 0 1 3.082-1.574C14.3 5.012 15 7.03 15 9.655V15h-3v-4.738c0-1.13-.229-2.584-1.995-2.584-1.713 0-2.005 1.23-2.005 2.5V15H5.009V5h2.97ZM3 2.487a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z" clip-rule="evenodd"/>
