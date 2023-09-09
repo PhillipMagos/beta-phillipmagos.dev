@@ -1,7 +1,7 @@
 import React from 'react'
 import { PiTerminalWindowThin } from "react-icons/pi";
 import { FaNodeJs } from "react-icons/fa";
-import { SiMongodb, SiRender, SiExpress, SiVite, SiThreedotjs, SiVercel, SiPython, SiFlask } from "react-icons/si"
+import { SiMongodb, SiRender, SiExpress, SiVite, SiThreedotjs, SiVercel, SiPython, SiFlask, SiNextdotjs } from "react-icons/si"
 
 const Developments = () => {
 //   return (
@@ -115,17 +115,18 @@ return (
       <title>Placeholder</title>
       {/* <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> */}
     <div class="mt-4">
-      <h2 class="text-xl font-semibold mb-2">https://phillipzmagos.com/</h2>
+      <h2 class="text-xl font-semibold mb-2">Promptopia</h2>
       <p class="text-gray-800">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       <div class="flex justify-between items-center mt-2">
         <div class="space-x-2">
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Website</button>
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Repository</button>
+          <a href="https://project-promptopia-lac.vercel.app/">
+          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Website</button></a>
+          <a href="https://github.com/PhillipMagos/project-promptopia"><button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Repository</button></a>
         </div>
         <div className="grid grid-cols-3 gap-2">
-				<SiMongodb className="text-green-700 text-2xl border-green-400 border-2"/>
-				<FaNodeJs className="text-yellow text-2xl" />
-				<PiTerminalWindowThin className="text-black text-2xl" />
+				<SiNextdotjs className="text text-2xl"/>
+				<SiMongodb className="text-green-700 text-2xl" />
+				<SiVercel className="text-black text-2xl" />
 			</div>
       </div>
     </div>
@@ -187,6 +188,7 @@ return (
     </svg>
 
     <div class="mt-4">
+    <h2 class="text-xl font-semibold mb-2">https://phillipzmagos.com/</h2>
       <p class="text-gray-800">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       <div class="flex justify-between items-center mt-2">
         <div class="space-x-2">
