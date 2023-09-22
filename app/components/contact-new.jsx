@@ -4,7 +4,7 @@ import { useState } from "react";
 //import { useRouter } from 'next/router'; // A. this is used to redirect the webpage
 import React from "react";
 
-export default function ContactForm() {
+export default function ContactFormNew() {
     const handleButtonClick = () => {
         window.location.reload();
       };
@@ -77,8 +77,8 @@ export default function ContactForm() {
         onSubmit={handleSubmit}
         className=""
         >
-    <div className="grid gap-6 mb-6 md:grid-cols-2 mx-auto w-1/2 ">
-        <div className=" w-4/5">
+    <div className="grid gap-6 mb-6 md:grid-cols-1 mx-auto w-1/2 ">
+        <div className=" w-full">
             <label htmlFor="firstname" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
             <input 
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-200 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" 
@@ -90,7 +90,7 @@ export default function ContactForm() {
             placeholder="First Name" /> 
         </div>
 
-        <div className="w-4/5">
+        <div className="w-full">
             <label htmlFor="lastname" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Last name</label>
             <input 
   
@@ -102,7 +102,7 @@ export default function ContactForm() {
             placeholder="Last Name" />
 
         </div>
-        <div className="w-4/5">
+        <div className="w-full">
             <label htmlFor="company" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Company</label>
             <input 
 
@@ -113,7 +113,7 @@ export default function ContactForm() {
             id="company" 
             placeholder="Company" />
         </div>  
-        <div className="w-4/5">
+        <div className="w-full">
             <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone number</label>
             <input 
 
@@ -127,8 +127,8 @@ export default function ContactForm() {
   
         </div>
 
-<div className="grid gap-6 mb-6 md:grid-cols-1 mx-auto w-1/2 ">
-    <div className="mb-6 max-w-2xl  ">
+<div className="grid gap-6 mb-10 pb-10 md:grid-cols-1 mx-auto w-1/2 ">
+    <div className="mb-6 w-full">
         <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email address</label>
         <input 
 
@@ -140,7 +140,7 @@ export default function ContactForm() {
         placeholder="Email" />
     </div> 
                 
-                  <div className="mb-6 max-w-2xl">
+                  <div className="mb-6">
                       <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Message</label>
                       <textarea
                           onChange={e => setMessage(e.target.value)}
@@ -150,71 +150,13 @@ export default function ContactForm() {
                           placeholder="Type your message right here">
                           </textarea>
                   </div>
-                  {/* <div className="flex items-start mb-6">
-        <div className="flex items-center h-5">
-        <input checked id="remember" type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-800 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required></input>
-        </div>
-        <label for="remember" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-900">Send Resume</label>
-    </div> */}
-
     <button 
     onClick={handleButtonClick}
     type="submit" 
-    className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit
+    className="mb-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit
     </button>
-
-  
-
-    {/* <div className="flex items-start mb-6">
-        <div className="flex items-center h-5">
-        <input checked id="remember" type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-800 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required></input>
-        </div>
-        <label for="remember" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-900">Send Resume</label>
-    </div>
-    <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
-  */}
-            {/* <div>
-                <label htmlFor="fullname">Full Name</label>
-                <input 
-                onChange={e => setFullname(e.target.value)}
-                value={fullname}
-                type="text" 
-                id="fullname" 
-                placeholder="John Doe" />
-            </div> */}
-
-            {/* <div>
-                <label htmlFor="email">Email</label>
-                <input 
-                onChange={e => setEmail(e.target.value)}
-                value={email}
-                type="text" 
-                id="email" 
-                placeholder="john@gmail.com" />
-            </div> */}
-
-            {/* <div>
-                <label htmlFor="message">Your Message</label>
-                <textarea 
-                onChange={e => setMessage(e.target.value)}
-                value={message}
-                className="h-32"
-                id="message" 
-                placeholder="type your message right here"></textarea>
-            </div> */}
-            {/* <button className="bg-green-700 p-3 text-white font-bold" type="submit" onClick={() => setModalOpen(!modalOpen)}>Send</button>
-         */}
             </div>
             </form>
-        
-        {/* <div className="bg-slate-100 flex flex-col">Error Message */}
-        {/* <div className="bg-slate-100 flex flex-col">
-            {
-                error && error.map(e =>(
-                    <div className={`${success ? 'text-green-800' : 'text-red-600'} px-5 py-2`}>{e}</div>
-                ))
-            } */}
-        {/* </div> */}
         </>
         
     )

@@ -10,20 +10,6 @@ const about = () => {
         <div className="">
           <h2 className="text-center font-bold mb-4 mt-4 bg-gray-100">FRONTEND</h2>
         </div>
-        <div>
-          <article>
-            <h2>Frontend Approach</h2>
-            <p>As a Frontend Developer, this is my general approach to building websites from the get go.</p>
-            <ul>
-              <ol>Elements- Div, ul, li</ol>
-              <ol>Make the invisible visible - Add border width and color to every element</ol>
-              <ol>Outer Elements Layout - Put everything in a container by defining thier margin, padding & spacing.</ol>
-              <ol>Inner Elments Positioning - Position your inner elements suchs as your h, p, ul, li tags and buttons. Left, right, top, bottom and/or center?</ol>
-              <ol>Color - define your background, text and button colors.</ol>
-              <ol>Smooth out Everything - Define fonts and make sharp corners rounder with border-raidus for instance. </ol>
-            </ul>
-          </article>
-        </div>
         <div className="columns-2 ">
           <ul className="list-disc">
             <li>HTML & CSS</li>

@@ -10,313 +10,74 @@ export default function test() {
 
 
   return (
-    <div class="album py-5 bg-light">
-    <div class="container mx-auto">
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
-    {/* <img class="w-full h-56" src="https://www.trinka.ai/blog/wp-content/uploads/2021/09/28.png" alt="" /> */}
-
-    <div class="col">
-  <div class="bg-white rounded-lg shadow-sm p-4">
-  <img class="w-full h-56" src="https://www.trinka.ai/blog/wp-content/uploads/2021/09/28.png" alt="" />
-      <title>Placeholder</title>
-      {/* <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> */}
-    <div class="mt-4">
-      <h2 class="text-xl font-semibold mb-2">512unes</h2>
-      <p class="text-gray-800">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <div class="flex justify-between items-center mt-2">
-        <div class="space-x-2">
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">View Website</button>
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Github Repository</button>
-        </div>
-        <div className="grid grid-cols-3 gap-2">
-				<SiMongodb className="text-green-700 text-2xl border-green-400 border-2"/>
-				<FaNodeJs className="text-yellow text-2xl" />
-				<PiTerminalWindowThin className="text-black text-2xl" />
-			</div>
+    <div className="container mx-auto px-8">
+    <h1 className="text-center font-bold mb-4 mt-4">Skills</h1>
+    <div className="columns-1 border-color-600 ">
+      {/* grid grid-cols-2 gap-4 */}
+      <div className="">
+        <h2 className="text-center font-bold mb-4 mt-4 bg-gray-100">FRONTEND</h2>
       </div>
-    </div>
-  </div>
-</div>
-    <div class="col">
-  <div class="bg-white rounded-lg shadow-sm p-4">
-  <img class="w-full h-56" src="https://www.trinka.ai/blog/wp-content/uploads/2021/09/28.png" alt="" />
-      <title>Placeholder</title>
-      {/* <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> */}
-    <div class="mt-4">
-      <h2 class="text-xl font-semibold mb-2">512unes</h2>
-      <p class="text-gray-800">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <div class="flex justify-between items-center mt-2">
-        <div class="space-x-2">
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Website</button>
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Repository</button>
-        </div>
-        <div className="grid grid-cols-3 gap-2">
-				<SiMongodb className="text-green-700 text-2xl border-green-400 border-2"/>
-				<FaNodeJs className="text-yellow text-2xl" />
-				<PiTerminalWindowThin className="text-black text-2xl" />
-			</div>
+      <div>
+        <article>
+          <h2>Frontend Approach</h2>
+          <p>As a Frontend Developer, this is my general approach to building websites from the get go.</p>
+          <ul>
+            <ol>Elements- Div, ul, li</ol>
+            <ol>Make the invisible visible - Add border width and color to every element</ol>
+            <ol>Outer Elements Layout - Put everything in a container by defining thier margin, padding & spacing.</ol>
+            <ol>Inner Elments Positioning - Position your inner elements suchs as your h, p, ul, li tags and buttons. Left, right, top, bottom and/or center?</ol>
+            <ol>Color - define your background, text and button colors.</ol>
+            <ol>Smooth out Everything - Define fonts and make sharp corners rounder with border-raidus for instance. </ol>
+          </ul>
+        </article>
       </div>
-    </div>
-  </div>
-</div>
-    <div class="col">
-  <div class="bg-white rounded-lg shadow-sm p-4">
-  <img class="w-full h-56" src="https://www.trinka.ai/blog/wp-content/uploads/2021/09/28.png" alt="" />
-      <title>Placeholder</title>
-      {/* <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> */}
-    <div class="mt-4">
-      <h2 class="text-xl font-semibold mb-2">512unes</h2>
-      <p class="text-gray-800">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <div class="flex justify-between items-center mt-2">
-        <div class="space-x-2">
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Website</button>
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Repository</button>
-        </div>
-        <div className="grid grid-cols-3 gap-2">
-				<SiMongodb className="text-green-700 text-2xl border-green-400 border-2"/>
-				<FaNodeJs className="text-yellow text-2xl" />
-				<PiTerminalWindowThin className="text-black text-2xl" />
-			</div>
+      <div className="columns-2 ">
+        <ul className="list-disc">
+          <li>HTML & CSS</li>
+          <li>Bootstrap</li>
+          <li>JavaScript</li>
+          <li>React.JS</li>
+          <li>Responsive Design 🖥️ || 📱</li>
+          <li>jQuery 🤏</li>
+          <li><a href="#">See Related Projects</a></li>
+        </ul>
       </div>
-    </div>
-  </div>
-</div>
-    <div class="col">
-  <div class="bg-white rounded-lg shadow-sm p-4">
-  <img class="w-full h-56" src="https://www.trinka.ai/blog/wp-content/uploads/2021/09/28.png" alt="" />
-      <title>Placeholder</title>
-      {/* <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> */}
-    <div class="mt-4">
-      <h2 class="text-xl font-semibold mb-2">512unes</h2>
-      <p class="text-gray-800">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <div class="flex justify-between items-center mt-2">
-        <div class="space-x-2">
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Website</button>
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Repository</button>
-        </div>
-        <div className="grid grid-cols-3 gap-2">
-				<SiMongodb className="text-green-700 text-2xl border-green-400 border-2"/>
-				<FaNodeJs className="text-yellow text-2xl" />
-				<PiTerminalWindowThin className="text-black text-2xl" />
-			</div>
+      <div>
+        <h2 className="text-center font-bold mb-4 mt-4 bg-gray-100">BACKEND</h2>
       </div>
-    </div>
-  </div>
-</div>
-
-<div class="col">
-  <div class="bg-white rounded-lg shadow-sm p-4">
-    <svg class="w-full h-56 text-gray-500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-      <title>Placeholder</title>
-      <rect width="100%" height="100%" fill="#55595c"/>
-      <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-    </svg>
-
-    <div class="mt-4">
-    <h2 class="text-xl font-semibold mb-2">Title</h2>
-      <p class="text-gray-800">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <div class="flex justify-between items-center mt-2">
-        <div class="space-x-2">
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Website</button>
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Repository</button>
-        </div>
-        <div className="grid grid-cols-3 gap-2">
-				<SiMongodb className="text-green-700 text-2xl border-green-400 border-2"/>
-				<FaNodeJs className="text-yellow text-2xl" />
-				<PiTerminalWindowThin className="text-black text-2xl" />
-			</div>
+      <div>
+        <ul className="columns-2 mb-4 mt-4 list-disc">
+          <li>Node.JS</li>
+          <li>Express.JS</li>
+          <li>SQL</li>
+          <li>MongoDB</li>
+          <li>APIs</li>
+          <li>JSON</li>
+          <li>REST</li>
+          <li><a href="#">See Related Projects</a></li>
+        </ul></div>
+      <div>
+        <h2 className="bg-light font-bold text-center mb-4 mt-4  bg-gray-100">RELATED SKILLS</h2>
       </div>
-    </div>
-  </div>
-</div>
-<div class="col">
-  <div class="bg-white rounded-lg shadow-sm p-4">
-    <svg class="w-full h-56 text-gray-500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-      <title>Placeholder</title>
-      <rect width="100%" height="100%" fill="#55595c"/>
-      <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-    </svg>
-
-    <div class="mt-4">
-    <h2 class="text-xl font-semibold mb-2">Title</h2>
-      <p class="text-gray-800">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <div class="flex justify-between items-center mt-2">
-        <div class="space-x-2">
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">View</button>
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Edit</button>
-        </div>
-        <small class="text-gray-400">9 mins</small>
+      <div>
+        <ul className="columns-2 mb-2 mt-2 list-disc">
+          <li>Python</li>
+          <li>GIT</li>
+          <li>JIRA</li>
+          <li>Deployment & Management: Render & Vercel</li>
+          <li>Command Line</li>
+          <li>Agile Development</li>
+          <li>Postman</li>
+        </ul></div>
+      <div><h2 className="bg-light font-bold p-1 text-center mb-4 mt-4 bg-gray-100">CONTINUOUS LEARNING</h2></div>
+      <div>
+        <ul className="columns-2 mb-12 mt-2 list-disc">
+          <li>Python</li>
+          <li>C# - <a href="https://www.codecademy.com/learn">CodeAcademy</a></li>
+          <li>Tailwind CSS</li>
+          <li>Next.JS</li>
+        </ul>
       </div>
-    </div>
-  </div>
-</div>
-<div class="col">
-  <div class="bg-white rounded-lg shadow-sm p-4">
-    <svg class="w-full h-36 text-gray-500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-      <title>Placeholder</title>
-      <rect width="100%" height="100%" fill="#55595c"/>
-      <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-    </svg>
-
-    <div class="mt-4">
-      <p class="text-gray-800">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <div class="flex justify-between items-center mt-2">
-        <div class="space-x-2">
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">View</button>
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Edit</button>
-        </div>
-        <small class="text-gray-400">9 mins</small>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="col">
-  <div class="bg-white rounded-lg shadow-sm p-4">
-    <svg class="w-full h-36 text-gray-500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-      <title>Placeholder</title>
-      <rect width="100%" height="100%" fill="#55595c"/>
-      <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-    </svg>
-
-    <div class="mt-4">
-      <p class="text-gray-800">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <div class="flex justify-between items-center mt-2">
-        <div class="space-x-2">
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">View</button>
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Edit</button>
-        </div>
-        <small class="text-gray-400">9 mins</small>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="col">
-  <div class="bg-white rounded-lg shadow-sm p-4">
-    <svg class="w-full h-36 text-gray-500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-      <title>Placeholder</title>
-      <rect width="100%" height="100%" fill="#55595c"/>
-      <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-    </svg>
-
-    <div class="mt-4">
-      <p class="text-gray-800">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <div class="flex justify-between items-center mt-2">
-        <div class="space-x-2">
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">View</button>
-          <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Edit</button>
-        </div>
-        <small class="text-gray-400">9 mins</small>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-    {/* <div class="col">
-      <div class="card shadow-sm">
-        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-        <div class="card-body">
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-            </div>
-            <small class="text-muted">9 mins</small>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card shadow-sm">
-        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-        <div class="card-body">
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-            </div>
-            <small class="text-muted">9 mins</small>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card shadow-sm">
-        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-        <div class="card-body">
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-            </div>
-            <small class="text-muted">9 mins</small>
-          </div>
-        </div>
-      </div>
-    </div> */}
-
-    {/* <div class="col">
-      <div class="card shadow-sm">
-        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-        <div class="card-body">
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-            </div>
-            <small class="text-muted">9 mins</small>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card shadow-sm">
-        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-        <div class="card-body">
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-            </div>
-            <small class="text-muted">9 mins</small>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card shadow-sm">
-        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-        <div class="card-body">
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-            </div>
-            <small class="text-muted">9 mins</small>
-          </div>
-        </div>
-      </div>
-    </div> */}
-  </div>
     </div>
   </div>
 

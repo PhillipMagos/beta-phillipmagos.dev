@@ -55,6 +55,9 @@ return (
      </div>
 {/* <div class="bg-gradient-to-b from-blue-50 to-transparent dark:from-blue-900 w-full h-full absolute top-16 left-0 z-1"></div> */}
  </div>
+
+ {/*  Build a row that allows you to selct different tech stacks: MEN, MERN, Wordpress, Vabilla */}
+
     <div class="album py-5 bg-light">
     <div class="container mx-auto">
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
