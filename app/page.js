@@ -46,10 +46,11 @@ export default function Home() {
           </div>
           <ul className="mb-3 font-normal text-gray-400 dark:text-gray-400 list-disc pl-6">
             <li>Focuses on Layout, animations, content organization, navigation & graphics.</li>
-            <li>Bootstrap & Tailwind</li>
             <li>HTML5 and CSS3</li>
+            <li>Bootstrap</li>
+            <li>Tailwind.CSS</li>
             <li>Javascript</li>
-            <li>React</li>
+            {/* <li>React</li> */}
           </ul>
           <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Read more
@@ -67,6 +68,7 @@ export default function Home() {
           </div>
           <ul className="mb-3 font-normal text-gray-400 dark:text-gray-400 list-disc pl-6">
             <li>Building code, debugging, database managament.</li>
+            <li>Next.JS - Ask me why!</li>
             <li>Node.JS</li>
             <li>MongoDB</li>
             <li>SQL</li>

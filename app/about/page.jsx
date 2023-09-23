@@ -26,6 +26,7 @@ const about = () => {
         </div>
         <div>
           <ul className="columns-2 mb-4 mt-4 list-disc">
+            <li>Next.JS</li>
             <li>Node.JS</li>
             <li>Express.JS</li>
             <li>SQL</li>
