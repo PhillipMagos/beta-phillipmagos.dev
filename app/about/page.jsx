@@ -5,6 +5,7 @@ const about = () => {
   return (
     <div className="container mx-auto px-8">
       <h1 className="text-center font-bold mb-4 mt-4">Skills</h1>
+      <h1 className="text-center font-bold mb-4 mt-4">About Me(Redirect link from Weekend Developer)</h1>
       <div className="columns-1 border-color-600 ">
         {/* grid grid-cols-2 gap-4 */}
         <div className="">
