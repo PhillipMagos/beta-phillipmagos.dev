@@ -112,7 +112,7 @@ export default function Home() {
         <div className="mx-auto ">
       <div className="flex items-center">
         {/* Maybe put all the site into dark mode, have a light or sun arched over the site according to the time of the day. */}
-        <Carousel />
+        {/* <Carousel /> */}
         </div>
         </div>
       </section>

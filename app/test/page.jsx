@@ -142,7 +142,8 @@ export default function test() {
                 <div className="columns-2 ">
                   <ul className="list-disc text-gray-800">
                   <li>Next.JS</li>
-            <li>Node.JS</li>
+            <li>Node JS</li>
+            <li>Research and Experimenting with Bun JS</li>
             <li>Express.JS</li>
             <li>SQL</li>
             <li>MongoDB</li>
