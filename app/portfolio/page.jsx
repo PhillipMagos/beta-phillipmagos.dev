@@ -26,14 +26,14 @@ export default function portfolio() {
         </div>
         {/* <div class="bg-gradient-to-b from-blue-50 to-transparent dark:from-blue-900 w-full h-full absolute top-16 left-0 z-1"></div> */}
       </div>
-      <div class="album py-5 bg-light">
+      <div class="album py-5 px-8 mx-8 bg-light">
         <div class="container mx-auto">
-          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-3">
             {/* <img class="w-full h-56" src="https://www.trinka.ai/blog/wp-content/uploads/2021/09/28.png" alt="" /> */}
 
             <div class="col">
               <div class="bg-white rounded-lg shadow-sm p-4">
-                <img class="w-full h-56" src="https://www.trinka.ai/blog/wp-content/uploads/2021/09/28.png" alt="" />
+                <img class="w-3/4 h-56" src="https://www.trinka.ai/blog/wp-content/uploads/2021/09/28.png" alt="" />
                 <title>Placeholder</title>
                 {/* <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> */}
                 <div class="mt-4">
@@ -57,11 +57,11 @@ export default function portfolio() {
             </div>
             <div class="col">
               <div class="bg-white rounded-lg shadow-sm p-4">
-                <img class="w-full h-56" src="https://www.trinka.ai/blog/wp-content/uploads/2021/09/28.png" alt="" />
+                <img class="w-3/4 h-56" src="https://www.trinka.ai/blog/wp-content/uploads/2021/09/28.png" alt="" />
                 <title>Placeholder</title>
                 {/* <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> */}
                 <div class="mt-4">
-                  <h2 class="text-xl font-semibold mb-2">Tamales</h2>
+                  <h2 class="text-xl font-semibold mb-2">Ecommerce Website</h2>
                   <p class="text-gray-800">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="flex justify-between items-center mt-2">
                     <div class="space-x-2">
@@ -77,28 +77,7 @@ export default function portfolio() {
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="bg-white rounded-lg shadow-sm p-4">
-                <img class="w-full h-56" src="https://www.trinka.ai/blog/wp-content/uploads/2021/09/28.png" alt="" />
-                <title>Placeholder</title>
-                {/* <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> */}
-                <div class="mt-4">
-                  <h2 class="text-xl font-semibold mb-2">3rd Website</h2>
-                  <p class="text-gray-800">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="flex justify-between items-center mt-2">
-                    <div class="space-x-2">
-                      <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Website</button>
-                      <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Repository</button>
-                    </div>
-                    <div className="grid grid-cols-3 gap-2">
-                      <SiMongodb className="text-green-700 text-2xl border-green-400 border-2" />
-                      <FaNodeJs className="text-yellow text-2xl" />
-                      <PiTerminalWindowThin className="text-black text-2xl" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+
             {/* <div class="col">
               <div class="bg-white rounded-lg shadow-sm p-4">
                 <a href="https://project-promptopia-lac.vercel.app/">

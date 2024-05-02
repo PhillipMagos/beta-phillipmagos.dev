@@ -17,13 +17,7 @@ const Navbar = () => {
     <nav className="container-fluid bg-top flex justify-between bg-gray-900 text-white z-20">
           {/* <!-- Responsive navbar --> */}
 
-          <a className="navbar-burger self-center ml-6 text-4xl xl:" href="#">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 hover:text-gray-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
 
-          </svg>
-
-      </a>
     
       <div className="px-5 xl:px-12 py-6 sm:flex flex w-full items-center">
 

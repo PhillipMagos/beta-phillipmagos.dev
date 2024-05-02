@@ -54,14 +54,15 @@ const Developments = () => {
         <div class="container mx-auto">
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
             <div class="col">
-              <div class="bg-white rounded-lg shadow-sm p-4">
+              
+              {/* <div class="bg-white rounded-lg shadow-sm p-4">
                 <img class="w-full h-56" src="https://www.trinka.ai/blog/wp-content/uploads/2021/09/28.png" alt="" />
-                <title>Placeholder</title>
+                <title>Placeholder</title> */}
                 {/* <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> */}
-                <div class="mt-4">
+                {/* <div class="mt-4">
                   <h2 class="text-xl font-semibold mb-2">Ping Pong Game</h2>
-                  <p class="text-gray-800">Using the MEN stack, we created a platform that offers Austinite-unique experiences to its inhabitants and wannabe inhabitants. 512unes is charged with marketing Austin's local bands nationally and internationally as a premier business and leisure destination, thus enriching our community's overall quality of life.</p>
-                  <div class="flex justify-between items-center mt-2">
+                  <p class="text-gray-800">Using the MEN stack, we created a platform that offers Austinite-unique experiences to its inhabitants and wannabe inhabitants. 512unes is charged with marketing Austin's local bands nationally and internationally as a premier business and leisure destination, thus enriching our community's overall quality of life.</p> */}
+                  {/* <div class="flex justify-between items-center mt-2">
                     <div class="space-x-2">
                       <a href="https://solar-system-chi-ashen.vercel.app/">
                         <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Website</button></a>
@@ -72,9 +73,10 @@ const Developments = () => {
                       <SiFlask className="text-black-700 text-2xl" />
                       <SiVercel className="text text-2xl" />
                     </div>
-                  </div>
-                </div>
-              </div>
+                  </div> */}
+                {/* </div>
+              </div> */}
+
             </div>
             <div class="col">
               <div class="bg-white rounded-lg shadow-sm p-4">
