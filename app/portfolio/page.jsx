@@ -57,16 +57,16 @@ export default function portfolio() {
             </div>
             <div class="col">
               <div class="bg-white rounded-lg shadow-sm p-4">
-                <img class="w-3/4 h-56" src="https://www.trinka.ai/blog/wp-content/uploads/2021/09/28.png" alt="" />
+                <a href="https://e-commerce-website-sigma-three.vercel.app/"><img class="w-3/4 h-56" src="Preview-Ecom.png" alt="" /></a>
                 <title>Placeholder</title>
                 {/* <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text> */}
                 <div class="mt-4">
                   <h2 class="text-xl font-semibold mb-2">Ecommerce Website</h2>
-                  <p class="text-gray-800">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="text-gray-800">Full Stack E-Commerce App with Next JS, React, Sanity, Stripe, & TailwindCSS. Explore, shop, and simulate purchases with Stripe's test API</p>
                   <div class="flex justify-between items-center mt-2">
                     <div class="space-x-2">
-                      <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Website</button>
-                      <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Repository</button>
+                      <a href="https://e-commerce-website-sigma-three.vercel.app/"><button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Website</button></a>
+                      <a href="https://github.com/PhillipMagos/ECommerce-Website?tab=readme-ov-file"><button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Repository</button></a>
                     </div>
                     <div className="grid grid-cols-3 gap-2">
                       <SiMongodb className="text-green-700 text-2xl border-green-400 border-2" />
