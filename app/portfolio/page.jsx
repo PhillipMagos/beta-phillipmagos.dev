@@ -41,7 +41,7 @@ export default function portfolio() {
                   <p class="text-gray-800">Using the MEN stack, we created a platform that offers Austinite-unique experiences to its inhabitants and wannabe inhabitants. 512unes is charged with marketing Austin's local bands nationally and internationally as a premier business and leisure destination, thus enriching our community's overall quality of life.</p>
                   <div class="flex justify-between items-center mt-2">
                     <div class="space-x-2">
-                      <a href="https://five12unes-01.onrender.com/">
+                      <a href="https://five12unes-01.onrender.com/about_guest">
                         <button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Website</button></a>
                       <a href="https://github.com/ACCSoftwareBootcamp/CodeBusters"><button type="button" class="px-2 py-1 text-sm border border-gray-400 rounded text-gray-600 hover:bg-gray-100 transition duration-300">Repository</button></a>
                     </div>
